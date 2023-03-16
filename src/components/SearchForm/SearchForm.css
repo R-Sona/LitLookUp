@@ -18,36 +18,42 @@
   width: 100%;
 }
 
-.search-form-elem {
-  /* set the display to flex for proper alignment */
+.search-form {
   display: flex;
-
+  justify-content: center;
   align-items: center;
 }
 
 .form-control {
-  /* set the width of the input field to 100% */
   width: 80%;
-  /* add some padding and margin */
   padding: 10px;
   margin-right: 10px;
   border: none;
 }
 
-button[type="submit"] {
-  /* remove default button styling */
+.search-btn {
   border: none;
   background: none;
-  /* center the button content */
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: 10px;
-  margin-left: 10px;
 }
 
-.text-purple {
-  /* add some margin to the icon for better spacing */
-  margin-right: 5px;
+.search-btn i {
+  font-size: 20px;
+}
+
+@media only screen and (max-width: 600px) {
+  .search-form {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .form-control {
+    margin-right: 0;
+    margin-bottom: 10px;
+    width: 100%;
+  }
+
+  .search-btn {
+    margin-left: 0;
+  } 
 }
 
