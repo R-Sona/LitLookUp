@@ -13,12 +13,25 @@
 .search-form-elem .form-control::placeholder{
     opacity: 0.9;
 } */
+.search-form {
+  /* set the width of the search form */
+  width: 100%;
+}
+
+.search-form-elem {
+  /* set the display to flex for proper alignment */
+  display: flex;
+
+  align-items: center;
+}
+
 .form-control {
-  /* set the width of the input field to 80% */
+  /* set the width of the input field to 100% */
   width: 80%;
   /* add some padding and margin */
   padding: 10px;
   margin-right: 10px;
+  border: none;
 }
 
 button[type="submit"] {
@@ -29,7 +42,6 @@ button[type="submit"] {
   display: flex;
   justify-content: center;
   align-items: center;
-  /* add some padding and margin */
   padding: 10px;
   margin-left: 10px;
 }
@@ -38,3 +50,4 @@ button[type="submit"] {
   /* add some margin to the icon for better spacing */
   margin-right: 5px;
 }
+
