@@ -26,6 +26,10 @@
 .search-btn {
   border: none;
   background: none;
+  margin-left: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .search-btn i {
@@ -42,9 +46,4 @@
     margin-right: 0;
     margin-bottom: 10px;
   }
-
-  .search-btn {
-    margin-left: 0;
-    width: 100%;
-  } 
 }
