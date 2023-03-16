@@ -1,4 +1,4 @@
-.search-form{
+/* .search-form{
     width: 100%;
     max-width: 680px;
 }
@@ -12,4 +12,38 @@
 }
 .search-form-elem .form-control::placeholder{
     opacity: 0.9;
+} */
+.search-form {
+  /* set the width of the search form */
+  width: 100%;
+}
+
+.search-form-elem {
+  /* set the display to flex for proper alignment */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.form-control {
+  /* set the width of the input field to 100% */
+  width: 100%;
+  /* add some padding and margin */
+  padding: 10px;
+  margin-right: 10px;
+}
+
+button[type="submit"] {
+  /* remove default button styling */
+  border: none;
+  background: none;
+  /* center the button content */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.text-purple {
+  /* add some margin to the icon for better spacing */
+  margin-right: 5px;
 }
