@@ -62,5 +62,6 @@ input[type="text"] {
 
   .search-btn {
     margin-left: 0;
+    margin-top: 10px;
   } 
 }
