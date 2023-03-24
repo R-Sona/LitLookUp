@@ -1,4 +1,4 @@
-/* .search-form{
+ .search-form{
     width: 100%;
     max-width: 680px;
 }
@@ -27,7 +27,7 @@
   border: none;
   background: none;
   margin-left: 10px;
-  display: flex;
+/*   display: flex; */
   justify-content: center;
   align-items: center;
 }
