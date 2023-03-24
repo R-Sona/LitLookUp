@@ -84,19 +84,14 @@
   font-size: 20px;
 }
 
-@media only screen and (max-width: 680px) {
-  .search-form {
-    max-width: 100%;
-  }
-}
-
 @media only screen and (max-width: 600px) {
   .search-bar {
     flex-wrap: wrap;
+    justify-content: flex-start; /* Add this line to position the search icon to the left */
   }
   
-  .search-btn i {
-    font-size: 16px;
+  .search-btn {
+    margin-top: 10px; /* Add this line to separate the search icon from the search bar */
   }
 }
 
