@@ -79,7 +79,7 @@ const SearchForm = () => {
               <input
                 type="text"
                 className="form-control"
-                placeholder="The Secret...."
+                placeholder="The Secret......."
                 ref={searchText}
               />
               <button
